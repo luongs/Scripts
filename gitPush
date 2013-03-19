@@ -2,7 +2,7 @@
 #Author: Sebastien Luong 
 
 gitLogin 
-echo "Do you want to push following directory on github? (y/n)"
+echo "Do you want to push following directory \" $(pwd) \" on github? (y/n)"
 read CHOICE
 if [ "${CHOICE}" = "y" ]; then 
 	git add .
