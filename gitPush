@@ -1,3 +1,4 @@
+#!/bin/bash
 #Script used to recursively add and push all files to github account
 #Author: Sebastien Luong 
 
