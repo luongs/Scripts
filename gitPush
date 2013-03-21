@@ -2,7 +2,7 @@
 #Script used to recursively add and push all files to github account
 #Author: Sebastien Luong 
 
-gitLogin 
+/bin/gitLogin 
 echo "Do you want to push following directory \" $(pwd) \" on github? (y/n)"
 read CHOICE
 if [ "${CHOICE}" = "y" ]; then 
